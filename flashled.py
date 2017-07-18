@@ -35,13 +35,11 @@ def I():
 	dot()
 
 def say_my_name():
-		# button.when_pressed
-		
-		R()
-		E()
-		S()
-		I()
-
+	R()
+	E()
+	S()
+	I()
 	
-	button.when_pressed=say_my_name
-  pause()
+
+button.when_pressed=say_my_name
+pause()
